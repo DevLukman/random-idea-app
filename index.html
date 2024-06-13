@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Ideas</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrapper">
+<div class="header-content">
+<i class="fa -solid fa-plus" id="addIdea-btn"></i>
+</div>
+<div class="container">
+    <div class="heading">
+        <div class="alert"></div>
+        <h1>My ideas</h1>
+    </div>
+    <div class="cards">
+    <!-- <div class="card">
+     <div class="delete"><button type="button" class="delete-btn" title="btn"><i class="fa-solid fa-xmark" id="delete"></i></button></div>
+        <h3 class="idea">Create a softWare that help people to make money,
+            so as to increase the people's purchasing power.
+            to bring change to the world, everyone can afford what they want
+            and aswell buy what they need to satisfy their desire
+        </h3>
+        <p class="tag tag-software">Technology</p>
+        <h4 class="username">Lukas Flick</h4>
+        <p class="date">06/08/2024</p>
+      </div> -->
+
+    </div>
+</div>
+<div class="clearAll"> <button type="button" class="clear-btn">Clear All Ideas</button></div>
+</div>
+<div class="modal-container" id="modal">
+    <div class="modal-content">
+        <form id="modal-form">
+        <label for="username" id="username-label">Enter a UserName</label>
+        <input type="text" id="form-username" title="username">
+        <label for="idea" id="idea-text">What's Your Idea?</label>
+        <textarea name="idea-area" id="idea-textarea" title="enter"></textarea>
+        <label for="tag" id="idea-label">Tag</label>
+        <input type="text" id="idea-tag" title="tag">
+        <label for=""></label>
+        <button id="sumbit-btn" type="submit" title="submit">Submit</button>
+        </form>
+    </div>
+</div>
+    <script src="app.js"></script>
+</body>
+</html>
